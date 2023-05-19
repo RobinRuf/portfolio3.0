@@ -51,7 +51,7 @@ const About = () => {
         that I have been teaching myself programming for 10 years with courses
         like CS50. Most of my experience is in web development with TypeScript
         and JavaScript using React.JS or Next.JS.
-        <br classname="sm:block hidden" /> I'm a quick learner and collaborate
+        <br className="sm:block hidden" /> I'm a quick learner and collaborate
         closely with clients to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. Let's work together to bring
         your ideas to life!
