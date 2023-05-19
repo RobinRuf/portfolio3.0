@@ -1,3 +1,11 @@
+import drop from "./projects/drop.png";
+import medium from "./projects/medium.png";
+import minecraft from "./projects/minecraft.png";
+import netflix from "./projects/netflix.png";
+import sapphire from "./projects/sapphire.png";
+import unik from "./projects/unik.png";
+import chatgpt from "./projects/chatgpt.png";
+
 import logo from "./lightning.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -26,10 +34,6 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   logo,
   backend,
@@ -56,7 +60,11 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  drop,
+  medium,
+  minecraft,
+  netflix,
+  sapphire,
+  unik,
+  chatgpt,
 };
