@@ -19,10 +19,14 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  drop,
+  medium,
+  minecraft,
+  netflix,
+  sapphire,
+  unik,
+  chatgpt,
 } from "../assets";
 
 export const navLinks = [
@@ -183,67 +187,144 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ChatGPT Messenger",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Everyone knows ChatGPT by now. However, OpenAI has also provided an API. To get to know it, I built a ChatGPT clone. Unfortunately it is not possible to try it out, because the free limit has been reached.",
     tags: [
       {
-        name: "react",
+        name: "NextJS 13",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI API",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: chatgpt,
+    isPublic: true,
+    isOnline: true,
+    url: "https://chatgpt-messenger.app",
+    source_code_link: "https://github.com/RobinRuf/chatgpt-messenger",
+  },
+  {
+    name: "Netflix Clone",
+    description:
+      "I have already had to deal with React several times. However, I love trying out new libraries. I did this project first because I like the UI of Netflix and second to get more familiar with Redux.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: netflix,
+    isPublic: true,
+    isOnline: false,
+    url: "https://chatgpt-messenger.app",
+    source_code_link: "https://github.com/RobinRuf/netflix",
+  },
+  {
+    name: "Moving Company",
+    description:
+      "During my training as a software engineer, I worked part-time in a transport company. This happened to need a new website, so I created and provided it for free. However, the source code is private.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: unik,
+    isPublic: false,
+    isOnline: true,
+    url: "https://unik-umzuege.ch",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Medium Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Medium Clone was one of my first projects in which I tried SanityCMS. I am thrilled with this CMS. Easy condition and integration with NextJS. Also, I was able to further develop my TypeScript skills.",
     tags: [
       {
-        name: "react",
+        name: "NextJS 12",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: medium,
+    isPublic: true,
+    isOnline: true,
+    url: "https://medium-beryl-eta.vercel.app/",
+    source_code_link: "https://github.com/RobinRuf/medium",
   },
   {
-    name: "Trip Guide",
+    name: "Minecraft Web",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Everyone knows Minecraft. I'm not a fan myself, but I wanted to know if it works on the web. Also one of the first projects with TreeJS. Very demanding the whole thing with 3D objects, but also very entertaining!",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TreeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: minecraft,
+    isPublic: false,
+    isOnline: true,
+    url: "https://minecraft-silk-rho.vercel.app",
+    source_code_link: "https://github.com/RobinRuf/medium",
+  },
+  {
+    name: "Sapphire Draw",
+    description:
+      "Sapphire Draw was actually a customer project. However, the customer no longer uses it, however I am very happy with my work. It has its own Web3 contract and was one of my first Web3 projects.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SanityCMS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sapphire,
+    isPublic: false,
+    isOnline: true,
+    url: "https://www.sapphire-draw.app/",
+    source_code_link: "https://github.com/RobinRuf/crypto_lottery",
   },
 ];
 
