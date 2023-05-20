@@ -7,16 +7,16 @@ import unik from "./projects/unik.png";
 import chatgpt from "./projects/chatgpt.png";
 
 import logo from "./lightning.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import next from "./next.png";
+import fullstack from "./fullstack.png";
+import webmobile from "./webmobile.png";
+import react from "./react.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import nextjs from "./tech/nextjs.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -29,22 +29,19 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import reddit from "./company/reddit.png";
+import ibz from "./company/ibz.png";
+import reactnative from "./company/reactnative.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
+  fullstack,
+  webmobile,
   github,
   menu,
   close,
   css,
-  docker,
+  nextjs,
   figma,
   git,
   html,
@@ -52,14 +49,15 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  react,
+  next,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  reddit,
+  reactnative,
+  ibz,
   drop,
   medium,
   minecraft,
