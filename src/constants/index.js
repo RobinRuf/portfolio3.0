@@ -1,8 +1,8 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
+  next,
+  react,
+  fullstack,
+  webmobile,
   javascript,
   typescript,
   html,
@@ -14,11 +14,10 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  nextjs,
+  reactnative,
+  ibz,
+  reddit,
   threejs,
   drop,
   medium,
@@ -46,30 +45,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Web- & Mobile Developer",
+    icon: webmobile,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "Fullstack Developer",
+    icon: fullstack,
   },
   {
-    title: "Full Stack Developer",
-    icon: backend,
+    title: "Next.JS",
+    icon: next,
   },
   {
-    title: "Mobile Developer",
-    icon: creator,
+    title: "React.JS",
+    icon: react,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS3",
     icon: css,
   },
   {
@@ -81,19 +80,23 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React.JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
+    name: "Next.JS",
+    icon: nextjs,
+  },
+  {
+    name: "TailwindCSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.JS",
     icon: nodejs,
   },
   {
@@ -101,7 +104,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Three.JS",
     icon: threejs,
   },
   {
@@ -112,29 +115,13 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "Student",
-    company_name: "IBZ Basel",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Aug 2022 - Present",
-    points: [
-      "2 years full-time school and 2 years full-time internship as a Software Engineer",
-      "Actually, I am a self taught programmer.",
-      "After the school, I am a certificated Software Engineer.",
-    ],
-  },
-  {
     title: "Reddit Community Developer",
     company_name: "Reddit",
-    icon: starbucks,
+    icon: reddit,
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
@@ -144,9 +131,21 @@ const experiences = [
     ],
   },
   {
+    title: "Student",
+    company_name: "IBZ Basel",
+    icon: ibz,
+    iconBg: "#E6DEDD",
+    date: "Aug 2022 - Present",
+    points: [
+      "2 years full-time school and 2 years full-time internship as a Software Engineer",
+      "Actually, I am a self taught programmer.",
+      "After the school, I am a certificated Software Engineer.",
+    ],
+  },
+  {
     title: "React Native Developer",
     company_name: "Social Media",
-    icon: tesla,
+    icon: reactnative,
     iconBg: "#E6DEDD",
     date: "March 2022 - Present",
     points: [
