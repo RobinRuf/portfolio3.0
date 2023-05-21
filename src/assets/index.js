@@ -32,6 +32,7 @@ import threejs from "./tech/threejs.svg";
 import reddit from "./company/reddit.png";
 import ibz from "./company/ibz.png";
 import reactnative from "./company/reactnative.png";
+import raigeki from "./company/raigeki.png";
 
 export {
   logo,
@@ -58,6 +59,7 @@ export {
   reddit,
   reactnative,
   ibz,
+  raigeki,
   drop,
   medium,
   minecraft,

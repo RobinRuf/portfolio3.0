@@ -17,6 +17,7 @@ import {
   nextjs,
   reactnative,
   ibz,
+  raigeki,
   reddit,
   threejs,
   drop,
@@ -153,6 +154,18 @@ const experiences = [
       "Coding in React Native and using a NoSQL Database.",
       "Will be publish on iOS, Android and Web.",
       "Leading a small team while also developing.",
+    ],
+  },
+  {
+    title: "Freelancer Career",
+    company_name: "Freelance",
+    icon: raigeki,
+    iconBg: "#000",
+    date: "Feb 2020 - Present",
+    points: [
+      "Creation of own larger projects in the web and app development area",
+      "Acceptance and implementation of freelance projects from friends and clients",
+      "Start looking for employment with companies as a freelancer remotely or on-site.",
     ],
   },
 ];
