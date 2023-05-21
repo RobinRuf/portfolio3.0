@@ -187,11 +187,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I enjoyed working with Robin. Quick response and a very friendly approach. His work is very professional and high quality.",
+    name: "A. Zehnder",
+    designation: "UI/UX Designer",
+    company: "Freelancer",
   },
 ];
 
