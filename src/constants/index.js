@@ -122,7 +122,7 @@ const experiences = [
     title: "Reddit Community Developer",
     company_name: "Reddit",
     icon: reddit,
-    iconBg: "#383E56",
+    iconBg: "#fff",
     date: "May 2023 - Present",
     points: [
       "Got invited by Reddit Admins to join the Reddit Community Developer Program (Devvit) in Beta.",
@@ -146,7 +146,7 @@ const experiences = [
     title: "React Native Developer",
     company_name: "Social Media",
     icon: reactnative,
-    iconBg: "#E6DEDD",
+    iconBg: "#5b5b5b",
     date: "March 2022 - Present",
     points: [
       "Creating a new social media platform with an US-Company.",
@@ -160,19 +160,17 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Robin created our company website. Since then, our customer numbers have multiplied. Very good and precise work.",
+    name: "K. Remi",
+    designation: "CEO",
+    company: "Unik Umzuege",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Our workflow has been significantly optimized by this beautiful, well-structured and perfectly functioning app. Thank you very much!",
+    name: "F. Delgato",
+    designation: "Owner",
+    company: "Warehouse Management App",
   },
   {
     testimonial:
