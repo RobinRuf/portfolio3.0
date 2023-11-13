@@ -30,11 +30,8 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <Route
-          path="/apps/policies/privacy/chinchin"
-          component={PrivacyPolicy}
-        />
       </div>
+      <Route path="/apps/policies/privacy/chinchin" component={PrivacyPolicy} />
     </BrowserRouter>
   );
 };
