@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import {
   About,
@@ -16,7 +16,6 @@ import PrivacyPolicy from "./components/apps/policies/privacy/chinchin";
 const App = () => {
   return (
     <BrowserRouter>
-      <Switch>
         <Route exact path="/">
           <div className="relative z-0 bg-primary">
             <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -31,12 +30,9 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
-        </Route>
-        <Route
-          path="/apps/policies/privacy/chinchin"
-          component={PrivacyPolicy}
-        />
-      </Switch>
+        <Routes>
+          <Route path="/apps/policies/privacy/chinchin" element={<PrivacyPolicy />} />
+        </Routes>
     </BrowserRouter>
   );
 };
