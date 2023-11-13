@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 import {
   About,
@@ -11,7 +11,6 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import PrivacyPolicy from "./components/apps/policies/privacy/chinchin";
 
 const App = () => {
   return (
@@ -29,12 +28,6 @@ const App = () => {
         <Contact />
         <StarsCanvas />
       </div>
-      <Routes>
-        <Route
-          path="/apps/policies/privacy/chinchin"
-          element={<PrivacyPolicy />}
-        />
-      </Routes>
     </BrowserRouter>
   );
 };
