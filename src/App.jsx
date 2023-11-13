@@ -31,7 +31,6 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      <Route path="/apps/policies/privacy/chinchin" component={PrivacyPolicy} />
     </BrowserRouter>
   );
 };
