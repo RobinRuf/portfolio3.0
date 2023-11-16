@@ -1,33 +1,16 @@
-import {
-  next,
-  react,
-  fullstack,
-  webmobile,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  nextjs,
-  reactnative,
-  ibz,
-  raigeki,
-  reddit,
-  threejs,
-  drop,
-  medium,
-  minecraft,
-  netflix,
-  sapphire,
-  unik,
-  chatgpt,
-} from "../assets";
+import next from "../assets/next.png";
+import react from "../assets/react.png";
+import fullstack from "../assets/fullstack.png";
+import webmobile from "../assets/webmobile.png";
+import ibz from "../assets/company/ibz.png";
+import raigeki from "../assets/company/raigeki.png";
+import reddit from "../assets/company/reddit.png";
+import medium from "../assets/projects/medium.png";
+import minecraft from "../assets/projects/minecraft.png";
+import netflix from "../assets/projects/netflix.png";
+import sapphire from "../assets/projects/sapphire.png";
+import unik from "../assets/projects/unik.png";
+import chatgpt from "../assets/projects/chatgpt.png";
 
 export const navLinks = [
   {
@@ -60,61 +43,6 @@ const services = [
   {
     title: "React.JS",
     icon: react,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML5",
-    icon: html,
-  },
-  {
-    name: "CSS3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React.JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux",
-    icon: redux,
-  },
-  {
-    name: "Next.JS",
-    icon: nextjs,
-  },
-  {
-    name: "TailwindCSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node.JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three.JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
 ];
 
@@ -323,4 +251,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };
