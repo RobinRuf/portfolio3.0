@@ -140,32 +140,18 @@ const experiences = [
     points: [
       "2 years full-time school and 2 years full-time internship as a Software Engineer",
       "Actually, I am a self taught programmer.",
-      "After the school, I am a certificated Software Engineer.",
+      "After the school, I am a certificated Information Technologist.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Social Media",
-    icon: reactnative,
-    iconBg: "#5b5b5b",
-    date: "March 2022 - Present",
-    points: [
-      "Creating a new social media platform with an US-Company.",
-      "Coding in React Native and using a NoSQL Database.",
-      "Will be publish on iOS, Android and Web.",
-      "Leading a small team while also developing.",
-    ],
-  },
-  {
-    title: "Freelancer Career",
+    title: "Web- & Mobile Developer",
     company_name: "Freelance",
     icon: raigeki,
     iconBg: "#000",
-    date: "Feb 2020 - Present",
+    date: "Feb 2018 - Present",
     points: [
       "Creation of own larger projects in the web and app development area",
       "Acceptance and implementation of freelance projects from friends and clients",
-      "Start looking for employment with companies as a freelancer remotely or on-site.",
     ],
   },
 ];
