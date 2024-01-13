@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -98,7 +99,7 @@ const Works = () => {
           Below you will find some of my projects, which I have already done or
           on which I am currently still working. These I have created completely
           for myself and some of them were freelance projects that I created for
-          people and companies.{" "}
+          people and companies. These are not all, you can find more on my <a target="_blank" href="https://github.com/RobinRuf">GitHub</a>.{" "}
         </motion.p>
       </div>
 
