@@ -1,16 +1,4 @@
-import next from "../assets/next.png";
-import react from "../assets/react.png";
-import fullstack from "../assets/fullstack.png";
-import webmobile from "../assets/webmobile.png";
-import ibz from "../assets/company/ibz.png";
-import raigeki from "../assets/company/raigeki.png";
-import reddit from "../assets/company/reddit.png";
-import medium from "../assets/projects/medium.png";
-import minecraft from "../assets/projects/minecraft.png";
-import netflix from "../assets/projects/netflix.png";
-import sapphire from "../assets/projects/sapphire.png";
-import unik from "../assets/projects/unik.png";
-import chatgpt from "../assets/projects/chatgpt.png";
+import * as assets from "../assets";
 
 export const navLinks = [
   {
@@ -27,42 +15,30 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const mainstack = [
   {
-    title: "Web- & Mobile Developer",
-    icon: webmobile,
+    title: "JavaScipt & TypeScript",
+    icon: assets.ts,
   },
   {
-    title: "Fullstack Developer",
-    icon: fullstack,
+    title: "ReactJS & NextJS",
+    icon: assets.next,
   },
   {
-    title: "Next.JS",
-    icon: next,
+    title: "Rust",
+    icon: assets.rust,
   },
   {
-    title: "React.JS",
-    icon: react,
+    title: "NoSQL (e.g. Firebase)",
+    icon: assets.firebase,
   },
 ];
 
 const experiences = [
   {
-    title: "Reddit Community Developer",
-    company_name: "Reddit",
-    icon: reddit,
-    iconBg: "#fff",
-    date: "May 2023 - Present",
-    points: [
-      "Got invited by Reddit Admins to join the Reddit Community Developer Program (Devvit) in Beta.",
-      "Testing new features which I gain access to via the private developer subreddit.",
-      "Optimize and Develop Reddit Apps and Features.",
-    ],
-  },
-  {
     title: "Student",
     company_name: "IBZ Basel",
-    icon: ibz,
+    icon: assets.ibz,
     iconBg: "#E6DEDD",
     date: "Aug 2022 - Present",
     points: [
@@ -74,7 +50,7 @@ const experiences = [
   {
     title: "Web- & Mobile Developer",
     company_name: "Freelance",
-    icon: raigeki,
+    icon: assets.raigeki,
     iconBg: "#000",
     date: "Feb 2018 - Present",
     points: [
@@ -127,7 +103,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: chatgpt,
+    image: assets.chatgpt,
     isPublic: true,
     isOnline: true,
     url: "https://chatgpt-messenger.app",
@@ -151,7 +127,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: netflix,
+    image: assets.netflix,
     isPublic: true,
     isOnline: false,
     url: "https://chatgpt-messenger.app",
@@ -171,7 +147,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: unik,
+    image: assets.unik,
     isPublic: false,
     isOnline: true,
     url: "https://unik-umzuege.ch",
@@ -195,7 +171,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: medium,
+    image: assets.medium,
     isPublic: true,
     isOnline: true,
     url: "https://medium-beryl-eta.vercel.app/",
@@ -219,7 +195,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: minecraft,
+    image: assets.minecraft,
     isPublic: false,
     isOnline: true,
     url: "https://minecraft-silk-rho.vercel.app",
@@ -243,12 +219,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sapphire,
+    image: assets.sapphire,
     isPublic: true,
     isOnline: false,
-    url: "https://www.sapphire-draw.app/",
-    source_code_link: "https://github.com/RobinRuf/crypto_lottery",
+    url: "https://crypto-lottery-gzta-git-master-robinruf.vercel.app/",
+    source_code_link: "https://github.com/RobinRuf/sapphireDraw_crypto_lottery",
   },
 ];
 
-export { services, experiences, testimonials, projects };
+export { mainstack, experiences, testimonials, projects };
