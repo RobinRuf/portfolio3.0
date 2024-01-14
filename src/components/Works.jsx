@@ -37,7 +37,7 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          {isPublic && (
+          {isPublic && !isOnline && (
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
@@ -51,13 +51,34 @@ const ProjectCard = ({
               </div>
             </div>
           )}
-          {isOnline && (
+          {isOnline && !isPublic && (
             <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
               <div
                 onClick={() => window.open(url, "_blank")}
                 className="black-gradient w-20 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <p className="text-white text-[14px]">Website</p>
+              </div>
+            </div>
+          )}
+          {isPublic && isOnline && (
+            <div className="absolute inset-0 flex justify-between m-3 card-img_hover">
+              <div
+                onClick={() => window.open(url, "_blank")}
+                className="black-gradient w-20 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <p className="text-white text-[14px]">Website</p>
+              </div>
+
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
               </div>
             </div>
           )}
@@ -99,7 +120,7 @@ const Works = () => {
           Below you will find some of my projects, which I have already done or
           on which I am currently still working. These I have created completely
           for myself and some of them were freelance projects that I created for
-          people and companies. These are not all, you can find more on my <a target="_blank" href="https://github.com/RobinRuf">GitHub</a>.{" "}
+          people and companies. These are not all, you can find more on my <a target="_blank" href="https://github.com/RobinRuf" className="font-bold">GitHub</a>.{" "}
         </motion.p>
       </div>
 
