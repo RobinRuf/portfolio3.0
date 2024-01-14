@@ -1,5 +1,4 @@
 // Projects
-import drop from "./projects/drop.png";
 import medium from "./projects/medium.png";
 import minecraft from "./projects/minecraft.png";
 import netflix from "./projects/netflix.png";
@@ -34,7 +33,6 @@ export {
   close,
   ibz,
   raigeki,
-  drop,
   medium,
   minecraft,
   netflix,
