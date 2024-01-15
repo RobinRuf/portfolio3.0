@@ -1,6 +1,6 @@
 import {
   EarthCanvas,
-  ComputersCanvas,
+  MacbookCanvas,
   StarsCanvas,
 } from "./canvas";
 import Hero from "./Hero";
@@ -22,6 +22,6 @@ export {
   Contact,
   CanvasLoader,
   EarthCanvas,
-  ComputersCanvas,
+  MacbookCanvas,
   StarsCanvas,
 };
