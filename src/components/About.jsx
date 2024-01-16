@@ -48,15 +48,16 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am currently a computer science student in Basel, Switzerland. Before
-        that I have been teaching myself programming for 10 years. Most of my experience is in web and mobile development with
-        TS and JS using ReactJS, NextJS or React Native.
-        <br /><br /> I'm a quick learner and collaborate
+        that I have been teaching myself programming for 10 years with courses
+        like CS50. Most of my experience is in web and mobile development with
+        TypeScript and JavaScript using React.JS, Next.JS or React Native.
+        <br className="sm:block hidden" /> I'm a quick learner and collaborate
         closely with clients to create efficient, scalable, and user-friendly
-        solutions that solve real-world problems. <br /><br />
-        You can see my current mainstack below. To see my full techstack, please visit my <a target="_blank" href="https://github.com/RobinRuf" className="font-bold">GitHub</a>.
+        solutions that solve real-world problems. Let's work together to bring
+        your ideas to life!
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center md:justify-start">
         {mainstack.map((mainstack, index) => (
           <MainstackCard key={mainstack.title} index={index} {...mainstack} />
         ))}
