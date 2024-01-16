@@ -56,7 +56,7 @@ const About = () => {
         You can see my current mainstack below. To see my full techstack, please visit my <a target="_blank" href="https://github.com/RobinRuf" className="font-bold">GitHub</a>.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center md:justify-start">
         {mainstack.map((mainstack, index) => (
           <MainstackCard key={mainstack.title} index={index} {...mainstack} />
         ))}
