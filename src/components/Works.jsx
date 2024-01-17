@@ -6,8 +6,6 @@ import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -21,15 +19,19 @@ const ProjectCard = ({
   url,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      initial={{ opacity: 0, y: 100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ type: "spring", stiffness: 260, damping: 20, delay: 0, duration: 0.75 }}
+      viewport={{ once: true }}
+    >
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        //className="bg-tertiary/25 backdrop-blur-lg border border-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-        className="bg-tertiary border border-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-tertiary/25 backdrop-blur-lg border border-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -108,14 +110,35 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div
+        initial={{ y: -50, opacity: 0 }}
+        whileInView={{ opacity: 1, x: 0, y: 0 }}
+        transition={{
+          type: "spring",
+          duration: 1.25,
+          delay: 0,
+        }}
+        viewport={{ once: true }}
+      >
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          initial={{ 
+            x: 0,
+            y: 0,
+            opacity: 0
+          }}
+          whileInView={{ opacity: 1, x: 0, y: 0 }}
+          transition={{
+            type: "spring",
+            delay: 0,
+            duration: 1.25,
+            ease: "easeOut"
+          }}
+          viewport={{ once: true }}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Below you will find some of my projects, which I have already done or
