@@ -1,5 +1,4 @@
 import {
-  EarthCanvas,
   MacbookCanvas,
   StarsCanvas,
 } from "./canvas";
@@ -21,7 +20,6 @@ export {
   Feedbacks,
   Contact,
   CanvasLoader,
-  EarthCanvas,
   MacbookCanvas,
   StarsCanvas,
 };
