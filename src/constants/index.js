@@ -134,24 +134,28 @@ const projects = [
     source_code_link: "https://github.com/RobinRuf/netflix",
   },
   {
-    name: "Moving Company",
+    name: "3D Portfolio",
     description:
-      "During my training as a software engineer, I worked part-time in a transport company. This happened to need a new website, so I created and provided it for free. However, the source code is private.",
+      "I created this portfolio to train my ThreeJS skills. It shows an island, where you can fly around with an airplane. At four specific checkpoints, you can see a popup, where you can go to subpages.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
+        name: "ThreeJS",
+        color: "green-text-gradient",
+      },
+      {
         name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: assets.unik,
-    isPublic: false,
+    image: assets.threejs_portfolio,
+    isPublic: true,
     isOnline: true,
-    url: "https://unik-umzuege.ch",
-    source_code_link: "https://github.com/",
+    url: "https://three-js-portfolio-gilt.vercel.app/",
+    source_code_link: "https://github.com/RobinRuf/ThreeJS_Portfolio",
   },
   {
     name: "Medium Clone",

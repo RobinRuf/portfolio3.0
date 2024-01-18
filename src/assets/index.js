@@ -3,7 +3,7 @@ import medium from "./projects/medium.png";
 import minecraft from "./projects/minecraft.png";
 import netflix from "./projects/netflix.png";
 import sapphire from "./projects/sapphire.png";
-import unik from "./projects/unik.png";
+import threejs_portfolio from "./projects/threejs_portfolio.png";
 import chatgpt from "./projects/chatgpt.png";
 
 // utils
@@ -37,6 +37,6 @@ export {
   minecraft,
   netflix,
   sapphire,
-  unik,
+  threejs_portfolio,
   chatgpt,
 };
