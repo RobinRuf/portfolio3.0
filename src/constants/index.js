@@ -130,7 +130,7 @@ const projects = [
     image: assets.netflix,
     isPublic: true,
     isOnline: false,
-    url: "https://chatgpt-messenger.app",
+    url: "",
     source_code_link: "https://github.com/RobinRuf/netflix",
   },
   {
@@ -203,7 +203,7 @@ const projects = [
     isPublic: false,
     isOnline: true,
     url: "https://minecraft-silk-rho.vercel.app",
-    source_code_link: "https://github.com/RobinRuf/medium",
+    source_code_link: "",
   },
   {
     name: "Sapphire Draw",
@@ -219,14 +219,14 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "TailwindCSS",
+        name: "Blockchain",
         color: "pink-text-gradient",
       },
     ],
     image: assets.sapphire,
     isPublic: true,
     isOnline: false,
-    url: "https://crypto-lottery-gzta-git-master-robinruf.vercel.app/",
+    url: "",
     source_code_link: "https://github.com/RobinRuf/sapphireDraw_crypto_lottery",
   },
 ];

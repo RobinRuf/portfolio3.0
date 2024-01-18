@@ -35,8 +35,8 @@ const ProjectCard = ({
         <div className="relative w-full h-[230px]">
           <img
             src={image}
-            alt="project_image"
-            classname="w-full h-full object-cover rounded-2xl"
+            alt="Project Image"
+            className="w-full h-full object-cover rounded-2xl"
           />
 
           {isPublic && !isOnline && (
