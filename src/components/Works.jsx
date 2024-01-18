@@ -33,11 +33,11 @@ const ProjectCard = ({
         className="bg-tertiary/25 backdrop-blur-lg border border-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            classname="w-full h-full object-cover rounded-2xl"
-          />
+            <img
+              src={image}
+              alt="Project Image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
 
           {isPublic && !isOnline && (
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
