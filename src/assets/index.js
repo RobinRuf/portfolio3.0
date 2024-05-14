@@ -18,6 +18,7 @@ import rust from "./mainstack/rust.png";
 import firebase from "./mainstack/firebase.png";
 import next from "./mainstack/next.png";
 import java from "./mainstack/java.png";
+import csharp from "./mainstack/csharp.png"
 
 // work experience
 import ibz from "./work_experience/ibz.png";
@@ -29,6 +30,7 @@ export {
   firebase,
   next,
   java,
+  csharp,
   logo,
   github,
   menu,

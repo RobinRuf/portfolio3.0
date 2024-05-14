@@ -53,7 +53,7 @@ const About = () => {
         <br /><br /> I'm a quick learner and collaborate
         closely with clients to create efficient, scalable, and user-friendly
         solutions that solve real-world problems. <br /><br />
-        You can see my current mainstack below. To see my full techstack, please visit my <a target="_blank" href="https://github.com/RobinRuf" className="font-bold">GitHub</a>.
+        You can see my favorite languages below. To see my full techstack, please visit my <a target="_blank" href="https://github.com/RobinRuf" className="font-bold">GitHub</a>.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center md:justify-start">

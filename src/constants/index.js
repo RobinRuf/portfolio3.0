@@ -21,16 +21,16 @@ const mainstack = [
     icon: assets.ts,
   },
   {
+    title: "C#",
+    icon: assets.csharp,
+  },
+  {
     title: "Java",
     icon: assets.java,
   },
   {
     title: "Rust",
     icon: assets.rust,
-  },
-  {
-    title: "NoSQL (e.g. Firebase)",
-    icon: assets.firebase,
   },
 ];
 
