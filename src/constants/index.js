@@ -21,8 +21,8 @@ const mainstack = [
     icon: assets.ts,
   },
   {
-    title: "ReactJS & NextJS",
-    icon: assets.next,
+    title: "Java",
+    icon: assets.java,
   },
   {
     title: "Rust",
@@ -52,7 +52,7 @@ const experiences = [
     company_name: "Freelance",
     icon: assets.raigeki,
     iconBg: "#000",
-    date: "Feb 2018 - Present",
+    date: "Feb 2018 - Aug 2023",
     points: [
       "Creation of own larger projects in the web and app development area",
       "Acceptance and implementation of freelance projects from friends and clients",
@@ -88,7 +88,7 @@ const projects = [
   {
     name: "ChatGPT Messenger",
     description:
-      "Everyone knows ChatGPT by now. However, OpenAI has also provided an API. To get to know it, I built a ChatGPT clone. Unfortunately it is not possible to try it out, because the free limit has been reached.",
+      "Everyone knows ChatGPT. I know some people who don't want to pay a $20 subscription. This gave me the idea of looking into the OpenAI API and publishing a SaaS at the same time.",
     tags: [
       {
         name: "NextJS 13",
@@ -104,7 +104,7 @@ const projects = [
       },
     ],
     image: assets.chatgpt,
-    isPublic: true,
+    isPublic: false,
     isOnline: true,
     url: "https://chatgpt-messenger.app",
     source_code_link: "https://github.com/RobinRuf/chatgpt-messenger",
