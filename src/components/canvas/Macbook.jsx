@@ -5,7 +5,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Macbook = ({ isMobile }) => {
-  const macbook = useGLTF("./macbook/scene.glb");
+  const { scene, dispose } = useGLTF("./macbook/scene.glb");
+
+  // clean-up function, to prevent memory leaks
+  useEffect(() => {
+    return () => dispose();
+  }, [dispose]);
 
   return (
     <mesh>
@@ -20,7 +25,7 @@ const Macbook = ({ isMobile }) => {
       />
       <pointLight intensity={0.8} />
       <primitive
-        object={macbook.scene}
+        object={scene}
         scale={isMobile ? 0.6 : 1}
         position={isMobile ? [0.2, 0.05, 0] : [0.2, -0.06, 0]}
         rotation={[-0.01, 0, 0]}
