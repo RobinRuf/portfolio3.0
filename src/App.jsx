@@ -11,8 +11,6 @@ import {
   Works,
 } from "./components";
 
-const StarsCanvas = lazy(() => import('./components/canvas/Stars'));
-
 const App = () => {
   return (
     <BrowserRouter>
@@ -26,9 +24,6 @@ const App = () => {
         <Works />
         <Feedbacks />
         <Contact />
-        {/* <Suspense fallback={null}> */}
-        {/*   <StarsCanvas /> */}
-        {/* </Suspense> */}
       </div>
     </BrowserRouter>
   );
