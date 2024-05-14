@@ -26,9 +26,9 @@ const App = () => {
         <Works />
         <Feedbacks />
         <Contact />
-        <Suspense fallback={null}>
-          <StarsCanvas />
-        </Suspense>
+        {/* <Suspense fallback={null}> */}
+        {/*   <StarsCanvas /> */}
+        {/* </Suspense> */}
       </div>
     </BrowserRouter>
   );
